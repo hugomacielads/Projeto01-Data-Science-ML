@@ -24,7 +24,7 @@ Elas estão disponíveis para download abaixo da aula (se você puxar os dados d
 
 Caso queira uma outra solução, podemos olhar como referência a solução do usuário Allan Bruno do kaggle no Notebook: https://www.kaggle.com/allanbruno/helping-regular-people-price-listings-on-airbnb
 
-Você vai perceber semelhanças entre a solução que vamos desenvolver aqui e a dele, mas também algumas diferenças significativas no processo de construção do projeto.
+Você vai perceber semelhanças entre a solução desenvolvida aqui e a dele, mas também algumas diferenças significativas no processo de construção do projeto.
 
 - As bases de dados são os preços dos imóveis obtidos e suas respectivas características em cada mês.
 - Os preços são dados em reais (R$)
@@ -36,5 +36,20 @@ Você vai perceber semelhanças entre a solução que vamos desenvolver aqui e a
 - A localização do imóvel deve fazer muita diferença no preço, já que no Rio de Janeiro a localização pode mudar completamente as características do lugar (segurança, beleza natural, pontos turísticos)
 - Adicionais/Comodidades podem ter um impacto significativo, visto que temos muitos prédios e casas antigos no Rio de Janeiro
 
-Vamos descobrir o quanto esses fatores impactam e se temos outros fatores não tão intuitivos que são extremamente importantes.
+### Análise de Resultados;
+
+Após finalizado o treinamento do modelo que melhor representa a previsão de quartos, o gráfico de importância das features é ótimo para comparação das expectativas iniciais do projeto </br>
+
+O mapa de propriedades também é capaz de traduzir o comportamento dos nossos modelos, exibindo onde estão os apartamentos mais caros do Rio de Janeiro:
+
+![features](https://user-images.githubusercontent.com/70041844/150703017-bb6d17f3-b60a-4e3b-bf97-0731a7166d14.jpg)
+
+![mapa](https://user-images.githubusercontent.com/70041844/150703098-c5bb6281-4788-4753-bfb2-1e213e24e692.jpg)
+
+<br></br>
+
+### A última parte do nosso Projeto de Data Science - Machine Learning é o Deploy, ou seja, criar uma interface para utilização do nosso modelo, permitindo a qualquer úsuário prever o preço de seu imóvel inserindo determinadas carácteriscas em uma interface web.
+
+
+
  
